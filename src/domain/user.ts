@@ -25,11 +25,12 @@ export class User {
 
     }
 
-    //Se EXPORTA la Person1 = "instancia" de la clase User
     create() {
         console.log('Creando al usuario: ', this.name);
     }
 }
+
+//Se EXPORTA la Person1 = "instancia" de la clase User
 
 export const Person1 = new User({
     name: 'Pablita',
